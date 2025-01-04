@@ -16,8 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        mavenLocal()
     }
 }
 
 rootProject.name = "AndroidAdvancedUI"
 include(":app")
+include(":chapter01_custom_view")
